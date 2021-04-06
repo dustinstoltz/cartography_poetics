@@ -2,11 +2,11 @@
 
 [Marshall A. Taylor](https://www.marshalltaylor.net) and [Dustin S. Stoltz](https://www.dustinstoltz.com)
 
-This repository contains all R code and data necessary to reproduce the plots "[Cultural Cartography with Word Embeddings]()" forthcoming in *Poetics*.
+This repository contains all R code and data necessary to reproduce the plots "Cultural Cartography with Word Embeddings" forthcoming in *Poetics*. You can read the [preprint on SocArxiv](https://osf.io/preprints/socarxiv/5djcn/).
 
 # Data 
 
-To reproduce the figures, you will need to two sets of pre-trained word embeddings: [English fastText embeddings](https://fasttext.cc/docs/en/crawl-vectors.html) and the [Historical Word2Vec](https://nlp.stanford.edu/projects/histwords/) embeddings trained on the Corpus of Historical American English. They are too large for Github, so we've hosted them on Google Drive:
+To reproduce the figures, you will need to two sets of pretrained word embeddings: [English fastText embeddings](https://fasttext.cc/docs/en/crawl-vectors.html) and the [Historical Word2Vec](https://nlp.stanford.edu/projects/histwords/) embeddings trained on the Corpus of Historical American English. They are too large for Github, so we've hosted them on Google Drive:
 
 - [ft.cc.en.300D.2M.Rds](https://drive.google.com/file/d/17H4GOGedeGo0urQdDC-4e5qWQMeWLpGG/view?usp=sharing)
 - [w2v_coha_en_1810_2000.Rds](https://drive.google.com/file/d/1WYnZHZDQ3Vxi0gSKmXM0JF_bggKtcX98/view?usp=sharing)
@@ -18,7 +18,9 @@ To reproduce the figures, you will need to two sets of pre-trained word embeddin
   hi.wv  <- readRDS("w2v_coha_en_1810_2000.Rds")
 ```
 
-Next, we use roughly 200,000 news articles from the [All The News dataset](https://components.one/datasets/all-the-news-articles-dataset/) covering 2013-2018. We also convert the texts of the article into a Document-Term Matrix (for our preprocessing procedure see the paper).
+Next, we use roughly 200,000 news articles from the [All The News dataset](https://components.one/datasets/all-the-news-articles-dataset/) covering 2013-2018. We also convert the texts of the article into a Document-Term Matrix (for our preprocessing procedure see the paper), which is also a smidge to big for Github, so we've hosted on Google Drive:
+
+-[All the News DTM](https://drive.google.com/file/d/1S3Lwd6f4PNu9RCE2syZMWm67_IQurYGY/view?usp=sharing)
 
 ```r
   news.data   <- readRDS("data/news_metadata.Rds")
