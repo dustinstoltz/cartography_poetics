@@ -4,7 +4,7 @@
 
 This repository contains all R code and data necessary to reproduce the plots "Cultural Cartography with Word Embeddings" forthcoming in *Poetics*. You can read the [preprint on SocArxiv](https://osf.io/preprints/socarxiv/5djcn/).
 
-# Data 
+## Data 
 
 To reproduce the figures, you will need to two sets of pretrained word embeddings: [English fastText embeddings](https://fasttext.cc/docs/en/crawl-vectors.html) and the [Historical Word2Vec](https://nlp.stanford.edu/projects/histwords/) embeddings trained on the Corpus of Historical American English. They are too large for Github, so we've hosted them on Google Drive:
 
@@ -33,8 +33,7 @@ Finally, below are a few extra pieces of data: our anchor lists for building sem
   df.anchors <- readRDS("data/anchor_lists.Rds")
   df.events <- read.csv("data/events.csv")
 ```
-# Packages 
-
+## Packages 
 
 We use the following packages:
 
@@ -56,10 +55,6 @@ For some of the procedures, and for the ggplot aesthetics, we use packages we've
   text2map::set_theme()
 ```
 
-# Figures 
+## Figures 
 
 Provided the above dataframes, matrices, and packages are loaded, the R scripts in the Scripts folder will reproduce figures 1-6 in the paper.
-
-
-
-
