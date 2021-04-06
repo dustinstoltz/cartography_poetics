@@ -18,7 +18,7 @@ To reproduce the figures, you will need to two sets of pretrained word embedding
   hi.wv  <- readRDS("w2v_coha_en_1810_2000.Rds")
 ```
 
-Next, we use roughly 200,000 news articles from the [All The News dataset](https://components.one/datasets/all-the-news-articles-dataset/) covering 2013-2018. We also convert the texts of the article into a Document-Term Matrix (for our preprocessing procedure see the paper), which is also a smidge to big for Github, so we've hosted on Google Drive:
+Next, we use roughly 200,000 news articles from the [All The News dataset](https://components.one/datasets/all-the-news-articles-dataset/) covering 2013-2018. We also convert the texts of the article into a Document-Term Matrix (for our preprocessing procedure see the paper), which is also a smidge too big for Github, so we've hosted on Google Drive:
 
 -[All the News DTM](https://drive.google.com/file/d/1S3Lwd6f4PNu9RCE2syZMWm67_IQurYGY/view?usp=sharing)
 
