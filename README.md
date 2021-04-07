@@ -6,7 +6,7 @@ This repository contains all R code and data necessary to reproduce the plots "C
 
 ## Data 
 
-To reproduce the figures, you will need to two sets of pretrained word embeddings: [English fastText embeddings](https://fasttext.cc/docs/en/crawl-vectors.html) and the [Historical Word2Vec](https://nlp.stanford.edu/projects/histwords/) embeddings trained on the Corpus of Historical American English. They are too large for Github, so we've hosted them on Google Drive:
+To reproduce the figures, you will need to two sets of pretrained word embeddings: [English fastText embeddings](https://fasttext.cc/docs/en/crawl-vectors.html) and the [Historical Word2Vec](https://nlp.stanford.edu/projects/histwords/) embeddings trained on the Corpus of Historical American English. We have prepared them as Rds files, but they are too large for Github, so we've hosted them on Google Drive:
 
 - [ft.cc.en.300D.2M.Rds (1.4 Gb)](https://drive.google.com/file/d/17H4GOGedeGo0urQdDC-4e5qWQMeWLpGG/view?usp=sharing)
 - [w2v_coha_en_1810_2000.Rds (510.7 Mb)](https://drive.google.com/file/d/1WYnZHZDQ3Vxi0gSKmXM0JF_bggKtcX98/view?usp=sharing)
