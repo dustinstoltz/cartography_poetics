@@ -8,8 +8,8 @@ This repository contains all R code and data necessary to reproduce the plots "C
 
 To reproduce the figures, you will need to two sets of pretrained word embeddings: [English fastText embeddings](https://fasttext.cc/docs/en/crawl-vectors.html) and the [Historical Word2Vec](https://nlp.stanford.edu/projects/histwords/) embeddings trained on the Corpus of Historical American English. They are too large for Github, so we've hosted them on Google Drive:
 
-- [ft.cc.en.300D.2M.Rds](https://drive.google.com/file/d/17H4GOGedeGo0urQdDC-4e5qWQMeWLpGG/view?usp=sharing)
-- [w2v_coha_en_1810_2000.Rds](https://drive.google.com/file/d/1WYnZHZDQ3Vxi0gSKmXM0JF_bggKtcX98/view?usp=sharing)
+- [ft.cc.en.300D.2M.Rds (1.4 Gb)](https://drive.google.com/file/d/17H4GOGedeGo0urQdDC-4e5qWQMeWLpGG/view?usp=sharing)
+- [w2v_coha_en_1810_2000.Rds (510.7 Mb)](https://drive.google.com/file/d/1WYnZHZDQ3Vxi0gSKmXM0JF_bggKtcX98/view?usp=sharing)
 
 ```r
   # load fastText English word embeddings:
@@ -20,7 +20,7 @@ To reproduce the figures, you will need to two sets of pretrained word embedding
 
 Next, we use roughly 200,000 news articles from the [All The News dataset](https://components.one/datasets/all-the-news-articles-dataset/) covering 2013-2018. We also convert the texts of the article into a Document-Term Matrix (for our preprocessing procedure see the paper), which is also a smidge too big for Github, so we've hosted on Google Drive:
 
--[All the News DTM](https://drive.google.com/file/d/1S3Lwd6f4PNu9RCE2syZMWm67_IQurYGY/view?usp=sharing)
+- [All the News DTM](https://drive.google.com/file/d/1S3Lwd6f4PNu9RCE2syZMWm67_IQurYGY/view?usp=sharing)
 
 ```r
   news.data   <- readRDS("data/news_metadata.Rds")
@@ -57,4 +57,4 @@ For some of the procedures, and for the ggplot aesthetics, we use packages we've
 
 ## Figures 
 
-Provided the above dataframes, matrices, and packages are loaded, the R scripts in the Scripts folder will reproduce figures 1-6 in the paper.
+Provided the above dataframes, matrices, and packages are loaded, the R scripts in the Scripts folder will reproduce figures 1-6 in the paper. For a more detailed guide for using Concept Mover's Distance (used for figures 4-6) see [github.com/dustinstoltz/CMDist](https://github.com/dustinstoltz/CMDist).
