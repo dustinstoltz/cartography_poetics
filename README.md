@@ -47,12 +47,15 @@ For some of the procedures, and for the ggplot aesthetics, we use packages we've
 ```r
   devtools::install_github("dustinstoltz/CMDist")    
   devtools::install_gitlab("culturalcartography/text2map")
+  devtools::install_gitlab("culturalcartography/text2map.theme")
 
-  library(CMDist)
   library(text2map)
-  # loading text2map will change the colorscheme in ggplot
-  # this will change the rest of the ggplot2 aesthetics
-  text2map::set_theme()
+  library(CMDist)
+
+  text2map.theme::set_theme()
+  # this will change the colorscheme to viridis
+  # and tweak the rest of the ggplot2 aesthetics
+  
 ```
 
 ## Figures 
