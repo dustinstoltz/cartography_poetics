@@ -11,8 +11,8 @@
                 filter(relation=="racial" & in_embeddings==TRUE) %>%
                 select(add, subtract)
 
-    i.cd <- text2map::get_direction(im.ant, ft.wv)
-    r.cd <- text2map::get_direction(ra.ant, ft.wv)
+    i.cd <- CMDist::get_direction(im.ant, ft.wv)
+    r.cd <- CMDist::get_direction(ra.ant, ft.wv)
 
     cd <- rbind(i.cd, r.cd)
 
