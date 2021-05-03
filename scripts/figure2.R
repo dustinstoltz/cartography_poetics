@@ -17,10 +17,10 @@
 
     for(i in 1:length(years) ){
         wv     <- hi.wv[[i]]
-        s.wv.imm <- text2map::get_centroid(search.imm, wv)
-        s.wv.cit <- text2map::get_centroid(search.cit, wv)
+        s.wv.imm <- CMDist::get_centroid(search.imm, wv)
+        s.wv.cit <- CMDist::get_centroid(search.cit, wv)
         s.wv   <- rbind(s.wv.imm, s.wv.cit)
-        d.wv   <- text2map::get_direction(dims[,1:2], wv)
+        d.wv   <- CMDist::get_direction(dims[,1:2], wv)
         r.imm  <- sim2(x = d.wv, y = s.wv, 
                        method = "cosine", norm = "l2")
         df.a[i,] <- cbind(r.imm, years[i]) 
@@ -37,10 +37,10 @@
 
     for(i in 1:length(years) ){
         wv     <- hi.wv[[i]]
-        s.wv.imm <- text2map::get_centroid(search.imm, wv)
-        s.wv.cit <- text2map::get_centroid(search.cit, wv)
+        s.wv.imm <- CMDist::get_centroid(search.imm, wv)
+        s.wv.cit <- CMDist::get_centroid(search.cit, wv)
         s.wv   <- rbind(s.wv.imm, s.wv.cit)
-        d.wv   <- text2map::get_direction(dims[,1:2], wv)
+        d.wv   <- CMDist::get_direction(dims[,1:2], wv)
         r.imm  <- sim2(x = d.wv, y = s.wv, 
                        method = "cosine", norm = "l2")
         df.b[i,] <- cbind(r.imm, years[i]) 
@@ -57,10 +57,10 @@
 
     for(i in 1:length(years) ){
         wv     <- hi.wv[[i]]
-        s.wv.imm <- text2map::get_centroid(search.imm, wv)
-        s.wv.cit <- text2map::get_centroid(search.cit, wv)
+        s.wv.imm <- CMDist::get_centroid(search.imm, wv)
+        s.wv.cit <- CMDist::get_centroid(search.cit, wv)
         s.wv   <- rbind(s.wv.imm, s.wv.cit)
-        d.wv   <- text2map::get_direction(dims[,1:2], wv)
+        d.wv   <- CMDist::get_direction(dims[,1:2], wv)
         r.imm  <- sim2(x = d.wv, y = s.wv, 
                        method = "cosine", norm = "l2")
         df.c[i,] <- cbind(r.imm, years[i]) 
