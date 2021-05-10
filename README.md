@@ -2,9 +2,9 @@
 
 [Marshall A. Taylor](https://www.marshalltaylor.net) and [Dustin S. Stoltz](https://www.dustinstoltz.com)
 
-This repository contains all R code and data necessary to reproduce the plots "Cultural Cartography with Word Embeddings" forthcoming in *Poetics*. You can read the [preprint on SocArxiv](https://osf.io/preprints/socarxiv/5djcn/).
+This repository contains all R code and data necessary to reproduce the plots "Cultural Cartography with Word Embeddings" forthcoming in *Poetics*. You can read the article at *Poetics*[PDF](https://drive.google.com/file/d/1cTyHza-3PMIGYA50bFYMXwmG3oGcvUGj/view?usp=sharing)[DOI](https://doi.org/10.1016/j.poetic.2021.101567)[preprint on SocArxiv](https://osf.io/preprints/socarxiv/5djcn/).
 
-## Data 
+## Data
 
 To reproduce the figures, you will need to two sets of pretrained word embeddings: [English fastText embeddings](https://fasttext.cc/docs/en/crawl-vectors.html) and the [Historical Word2Vec](https://nlp.stanford.edu/projects/histwords/) embeddings trained on the Corpus of Historical American English. We have prepared them as Rds files, but they are too large for Github, so we've hosted them on Google Drive:
 
