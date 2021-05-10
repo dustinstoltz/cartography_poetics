@@ -2,7 +2,7 @@
 
 [Marshall A. Taylor](https://www.marshalltaylor.net) and [Dustin S. Stoltz](https://www.dustinstoltz.com)
 
-This repository contains all R code and data necessary to reproduce the plots "Cultural Cartography with Word Embeddings" forthcoming in *Poetics*. You can read the article at *Poetics*[[PDF](https://drive.google.com/file/d/1cTyHza-3PMIGYA50bFYMXwmG3oGcvUGj/view?usp=sharing)][[DOI](https://doi.org/10.1016/j.poetic.2021.101567)][[preprint on SocArxiv](https://osf.io/preprints/socarxiv/5djcn/)].
+This repository contains all R code and data necessary to reproduce the plots "Cultural Cartography with Word Embeddings" forthcoming in *Poetics*. You can read the article at *Poetics* [[PDF](https://drive.google.com/file/d/1cTyHza-3PMIGYA50bFYMXwmG3oGcvUGj/view?usp=sharing)][[DOI](https://doi.org/10.1016/j.poetic.2021.101567)][[preprint on SocArxiv](https://osf.io/preprints/socarxiv/5djcn/)].
 
 ## Data
 
