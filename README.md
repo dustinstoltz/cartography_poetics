@@ -20,7 +20,7 @@ To reproduce the figures, you will need to two sets of pretrained word embedding
 
 Next, we use roughly 200,000 news articles from the [All The News dataset](https://components.one/datasets/all-the-news-articles-dataset/) covering 2013-2018. We also convert the texts of the articles into a Document-Term Matrix (for our preprocessing procedure see the paper), which is also a smidge too big for Github, so we've hosted on Google Drive:
 
-- [All the News DTM](https://drive.google.com/file/d/1aIGYkOM6Q2u7arjJxxXC6gAMIOGZki5C/view?usp=sharing)
+- [All the News DTM](https://drive.google.com/file/d/1jPly1yLIJ0smnUV_lKYUzV2MAaMoPTAJ/view?usp=sharing)
 
 ```r
   news.data   <- readRDS("data/news_metadata.Rds")
